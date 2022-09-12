@@ -1,3 +1,3 @@
 $(".crypto").click(function() {
-    $(this).addClass("active").siblings().removeClass("active");
+    $(this).addClass("active flip").siblings().removeClass("active flip");
   });
