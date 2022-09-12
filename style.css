@@ -336,6 +336,17 @@ header {
   text-align: center;
   padding: 50px 20px 50px;
 }
+.flip{
+  animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+}
+@keyframes flip {
+  0% {
+            transform: translateZ(0) rotateY(0);
+  }
+  100% {
+            transform: translateZ(160px) rotateY(180deg);
+  }
+}
 .crypto > img {
   width: 25%;
   align-self: center;
