@@ -325,7 +325,6 @@ header {
 }
 .crypto:hover {
   cursor: pointer;
-  border: 1px solid #252540 ;
 }
 .crypto {
   display: flex;
