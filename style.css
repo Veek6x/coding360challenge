@@ -336,8 +336,10 @@ header {
   text-align: center;
   padding: 50px 20px 50px;
 }
+
 .flip{
   animation: flip 0.4s cubic-bezier(0.455, 0.030, 0.515, 0.955) alternate-reverse both;
+
 }
 @keyframes flip {
   0% {
